@@ -4,6 +4,7 @@ import React from "react"
 import Navigation from "../components/nav"
 import SubHeader from "../components/subheader"
 import Hero from "../components/hero"
+import AboutSection from "../components/about"
 
 export default function HomePage() {
     return (
@@ -11,6 +12,7 @@ export default function HomePage() {
             <Navigation />
             <SubHeader/>
             <Hero/>
+            <AboutSection/>
         </>
     )
 
