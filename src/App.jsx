@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import HomePage from './pages/landing'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import
+
   function App() {
 
     return (
@@ -14,6 +14,5 @@ import
       </>
     )
   }
-import { BrowserRouter } from 'react-router-dom'
 
 export default App
