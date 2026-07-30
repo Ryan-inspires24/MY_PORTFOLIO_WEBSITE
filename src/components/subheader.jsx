@@ -6,7 +6,7 @@ export default function SubHeader() {
         <>
             <div className="subheader">
                 <div className="subheader-item">
-                    PORTFOLIO -- 2025
+                    PORTFOLIO -- 2026
                 </div>
                 <div className="subheader-item">
                     FULL-STACK DEVELOPER

@@ -5,7 +5,7 @@ export default function Navigation() {
     return (
         <div className="nav-container">
             <div className="dev-name">Kinsa Ryan</div>
-            <ul>
+            <ul className="nav-bar">
                 <li className="nav-item"><Link path="/">Home</Link></li>
                 <li className="nav-item">About</li>
                 <li className="nav-item">Projects</li>

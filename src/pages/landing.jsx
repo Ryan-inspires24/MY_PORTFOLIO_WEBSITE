@@ -8,17 +8,21 @@ import AboutSection from "../components/about"
 import ProjectsSection from "../components/projects"
 import ContentSection from "../components/content"
 import ContactSection from "../components/contact"
+import '../main.css'
 
 export default function HomePage() {
     return (
         <>
-            <Navigation />
-            <SubHeader/>
-            <Hero/>
-            <AboutSection/>
-            <ProjectsSection/>
-            <ContentSection/>
-            <ContactSection/>
+            <div className="top-landing">
+                <Navigation />
+                <SubHeader />
+                <Hero />
+            </div>
+
+            <AboutSection />
+            <ProjectsSection />
+            <ContentSection />
+            <ContactSection />
         </>
     )
 
