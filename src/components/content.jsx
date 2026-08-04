@@ -7,35 +7,35 @@ export default function ContentSection() {
                 CONTENT
             </div>
             <div className="content-2">
-                <h2>Beyond the <span>Codebase.</span></h2>
-                <p>Tutorials, career insights, and behind-the-scenes development content across YouTube, TikTok, and Instagram. Growing a community of curious builders — one video at a time.</p>
+                <h2 className="content-heading">Beyond the <span className="blue">Codebase.</span></h2>
+                <p className="content-des">Tutorials, career insights, and behind-the-scenes development content across YouTube, TikTok, and Instagram. Growing a community of curious builders — one video at a time.</p>
                 <ul className="socials">
-                    <li> Tiktok -- @ryan_inspires</li>
-                    <li> Instagram -- @ryan_inspires</li>
-                    <li> LinkedIn -- @ryan_inspires</li>
+                    <li className="social"> Tiktok -- @ryan_inspires</li>
+                    <li className="social"> Instagram -- @ryan_inspires</li>
+                    <li className="social"> LinkedIn -- @ryan_inspires</li>
 
                 </ul>
 
             </div>
             <div className="content-3">
                 <div className="content-stat">
-                   <span>1k+</span> 
-                   <span>Followers</span>
+                   <span className="value">1k+</span> 
+                   <span className="content-word1">Followers</span>
                     <span>across all platforms</span>   
                 </div>
                 <div className="content-stat">
-                    <span> 30+</span>
-                     <span>videos</span> 
+                    <span className="value"> 30+</span>
+                     <span className="content-word1">videos</span> 
                      <span> published</span> 
                 </div>
                 <div className="content-stat">
-                   <span>  50k</span>
-                    <span> Views</span> 
+                   <span className="value">  50k</span>
+                    <span className="content-word1"> Views</span> 
                     <span> total reach</span>
                 </div>
                 <div className="content-stat">
-                  <span> 4.9</span> 
-                  <span>Rating</span>
+                  <span className="value"> 4.9</span> 
+                  <span className="content-word1">Rating</span>
                    <span>community feedback</span>  
                 </div>
 
