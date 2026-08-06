@@ -14,11 +14,14 @@ export default function Hero() {
                         <li className="hero-nav-item">Get in touch</li>
                     </ul>
                 </div>
-                <div className="hero-image">
-                    <img src='' alt="hero-image" className="dev-portrait"></img>
-                    <p className="image-text">Based in Yaounde and Buea</p>
-                </div>
-            </div>
+<div className="hero-image">
+    <div className="portrait-card">
+        <img src="/profile_picture.png" alt="hero-image" className="dev-portrait"></img>
+        <p className="image-text">Based in Yaoundé and Buea</p>
+    </div>
+</div> 
+           </div>
+            
         </>
     )
 }
